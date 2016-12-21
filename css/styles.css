@@ -1,0 +1,58 @@
+
+#title{
+	padding-top: 200px;
+	text-align: center;
+	color:#000000;
+	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+	font-size:60px;
+}
+
+li{
+	display:inline-block;
+	text-align: center;
+	background: #333;
+	padding: 20px;
+	margin:5px;
+	width:90px;
+}
+
+
+ul{
+	text-align: center;
+	list-style-type: none;
+}
+
+ul li a {
+	color:white;
+	text-decoration: none;
+	font-size:15px;
+}
+
+a:visited{
+	color:white;
+}
+
+li:hover{
+	color:red;
+}
+
+a:link{
+	color:white;
+}
+
+.box{
+	border:5px solid gray;
+	width: 600px;
+	height: 600px;
+	background: #9999ff;
+	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* Center the box */
+html, body { height: 100%; }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
