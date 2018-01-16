@@ -1,58 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
-#title{
-	padding-top: 200px;
-	text-align: center;
-	color:#000000;
-	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-	font-size:60px;
+html{
+    height:100%
 }
-
-li{
-	display:inline-block;
-	text-align: center;
-	background: #333;
-	padding: 20px;
-	margin:5px;
-	width:90px;
-}
-
-
-ul{
-	text-align: center;
-	list-style-type: none;
-}
-
-ul li a {
-	color:white;
-	text-decoration: none;
-	font-size:15px;
-}
-
-a:visited{
-	color:white;
-}
-
-li:hover{
-	color:red;
-}
-
-a:link{
-	color:white;
-}
-
-.box{
-	border:5px solid gray;
-	width: 600px;
-	height: 600px;
-	background: #9999ff;
-	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
-/* Center the box */
-html, body { height: 100%; }
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    background-color:#5d8fc3f5;
+    min-height:100%;
+    font-family: 'News Cycle', sans-serif;
 }
+
+.profile-picture{
+    height: 200px;
+    width: 200px;
+}
+
+.icon-coloring{
+    color:#000000;
+}
+
+.icon-list{
+    margin: 10px;
+}
+
+.jumbotron{
+    margin-top: 150px;
+    position: relative;
+}
+
+.container-icons-links {
+    margin-top: 40px;
+}
+
+
+  
+  /* Div for skillset section */
+  
+  #skills {
+    border: 4.5px solid #D8D8D8;
+    border-radius: 20px;
+    padding: 1em 0;
+    margin: 4em auto;
+    max-width: 50%;
+    background: #BEC0C6;
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #2D2D2D;
+    text-align: center;
+    font-weight: lighter;
+    display: block;
+    padding: .5em 0 1em 0;
+    letter-spacing: .2em;
+  }
+  
+  
+  /* Skill list items */
+  
+  li {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    max-font-size: 1.3em;
+    font-weight: lighter;
+    padding: 0;
+  }
+  
+  ul {
+    padding-left: 0;
+    color: #2d2d2d;
+    text-align: left;
+    margin-left: 2em;
+    list-style-type: none;
+  }
+  
+  
+  /* Containers for skill levels */
+  
+  .box {
+    height: 1em;
+    width: 93%;
+    border: .1em solid #2D2D2D;
+    border-radius: 3px;
+    display: inline-block;
+    margin: .5em 0 2em;
+    text-align: center;
+  }
+  
+  
+  /* Skill levels */
+  
+  #one {
+    height: 1em;
+    width: 85%;
+    background: #2D2D2D;
+    display: block;
+  }
+  
+  #two {
+    height: 1em;
+    width: 68%;
+    background: #2D2D2D;
+    display: block;
+  }
+  
+  #three {
+    height: 1em;
+    width: 60%;
+    background: #2D2D2D;
+    display: block;
+  }
+  
+  #four {
+    height: 1em;
+    width: 76%;
+    background: #2D2D2D;
+    display: block;
+  }
+  
+  #five {
+    height: 1em;
+    width: 60%;
+    background: #2D2D2D;
+    display: block;
+  }
+  
+  #six {
+    height: 1em;
+    width: 85%;
+    background: #2D2D2D;
+    display: block;
+  }
+  
+  #seven {
+    height: 1em;
+    width: 85%;
+    background: #2D2D2D;
+    display: block;
+  }
+  
+  
+  /* Keyframe */
+  
+  @keyframes grow {
+    0% {
+      width: 0;
+    }
+    100% {
+      transform: 100%;
+    }
+  }
